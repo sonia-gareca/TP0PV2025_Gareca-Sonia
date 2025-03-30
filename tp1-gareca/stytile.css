@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    font-size: 3rem; /* Tamaño de fuente grande */
+    font-weight: bold;
+    color: #248727; /* Color verde */
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra ligera */
+    margin: 20px 0;
+    font-family: 'Roboto', sans-serif; /* Tipografía moderna */
+}
+.navbar,.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 3rem;
+    background-color: #590371;
+    
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links li a {
+    position: relative;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+section {
+    background-color: rgb(245, 201, 250);
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+}
+section p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+   
+}
+
+section img {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.caracteristica-jujuy {
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-color: rgb(215, 78, 231);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    margin-bottom: 2rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.contenedor-secciones {
+    background-color: rgb(245, 201, 250);
+    display: flex; /* Utiliza Flexbox para disposición en línea */
+    justify-content: center; /* Espacio entre las secciones */
+    gap: 2rem; /* Espacio entre las secciones */
+    padding: 2rem;
+    flex-wrap: wrap; /* Permite que las secciones se apilen en pantallas pequeñas */
+}
+.contacto-section {
+    background-color: #e7f7ff; /* Fondo claro y suave */
+    padding: 40px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 700px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.contacto-section h2 {
+    color: #0066cc; /* Color del título más llamativo */
+    text-align: center;
+}
+.contacto-section form {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contacto-section label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.contacto-section input, 
+.contacto-section textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
